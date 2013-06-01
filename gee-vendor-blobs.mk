@@ -154,6 +154,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
     vendor/lge/gee/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/lge/gee/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
+    vendor/lge/gee/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/lge/gee/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/lge/gee/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/lge/gee/proprietary/lib/libqmi.so:system/lib/libqmi.so \
