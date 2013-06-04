@@ -75,6 +75,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/lge/gee/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
     vendor/lge/gee/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+    vendor/lge/gee/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
+    vendor/lge/gee/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/gestures.msm8960.so \
     vendor/lge/gee/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/lge/gee/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
     vendor/lge/gee/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
@@ -125,6 +127,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/lib/libDxHdcp.so:system/lib/libDxHdcp.so \
     vendor/lge/gee/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/lge/gee/proprietary/lib/libgsl.so:system/lib/libgsl.so \
+    vendor/lge/gee/proprietary/lib/libgestureservice.so:system/lib/libgestureservice.so \
+    vendor/lge/gee/proprietary/lib/libgesture_client.so:system/lib/libgesture_client.so \
+    vendor/lge/gee/proprietary/lib/libgesture-core.so:system/lib/libgesture-core.so \
     vendor/lge/gee/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/lge/gee/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
     vendor/lge/gee/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
@@ -140,6 +145,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/lge/gee/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/lge/gee/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
+    vendor/lge/gee/proprietary/lib/libmmgestures-linux.so:system/lib/libmmgestures-linux.so \
+    vendor/lge/gee/proprietary/lib/libmmgesture_services:system/lib/libmmgesture_services.so \
     vendor/lge/gee/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/lge/gee/proprietary/lib/libmmjps.so:system/lib/libmmjps.so \
     vendor/lge/gee/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
