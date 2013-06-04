@@ -145,7 +145,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/lge/gee/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/lge/gee/proprietary/lib/libmmgestures-linux.so:system/lib/libmmgestures-linux.so \
-    vendor/lge/gee/proprietary/lib/libmmgesture_services:system/lib/libmmgesture_services.so \
+    vendor/lge/gee/proprietary/lib/libmmgesture_services.so:system/lib/libmmgesture_services.so \
     vendor/lge/gee/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/lge/gee/proprietary/lib/libmmjps.so:system/lib/libmmjps.so \
     vendor/lge/gee/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
