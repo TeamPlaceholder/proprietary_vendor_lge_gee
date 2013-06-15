@@ -23,7 +23,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
     vendor/lge/gee/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/lge/gee/proprietary/bin/efsks:system/bin/efsks \
-    vendor/lge/gee/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd \
     vendor/lge/gee/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lge/gee/proprietary/bin/ks:system/bin/ks \
     vendor/lge/gee/proprietary/bin/mm-audio-send-cal:system/bin/mm-audio-send-cal \
