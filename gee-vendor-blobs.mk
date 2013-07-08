@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lge/gee/proprietary/bin/ks:system/bin/ks \
     vendor/lge/gee/proprietary/bin/mm-audio-send-cal:system/bin/mm-audio-send-cal \
+    vendor/lge/gee/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/gee/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/lge/gee/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/gee/proprietary/bin/nl_listener:system/bin/nl_listener \
@@ -72,6 +73,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/lge/gee/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
     vendor/lge/gee/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+    vendor/lge/gee/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     vendor/lge/gee/proprietary/lib/hw/gestures.msm8960.so:system/lib/hw/gestures.msm8960.so \
     vendor/lge/gee/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/lge/gee/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
@@ -84,7 +86,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/lge/gee/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
     vendor/lge/gee/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
-    vendor/lge/gee/proprietary/lib/libcamera_fast_af.so:system/lib/libcamera_fast_af.so \
+    vendor/lge/gee/proprietary/lib/libchromatix_imx074_default_video.so:system/lib/libchromatix_imx074_default_video.so \
+    vendor/lge/gee/proprietary/lib/libchromatix_imx074_preview.so:system/lib/libchromatix_imx074_preview.so \
+    vendor/lge/gee/proprietary/lib/libchromatix_imx074_video_hd.so:system/lib/libchromatix_imx074_video_hd.so \
+    vendor/lge/gee/proprietary/lib/libchromatix_imx074_zsl.so:system/lib/libchromatix_imx074_zsl.so \
     vendor/lge/gee/proprietary/lib/libchromatix_imx091_default_video.so:system/lib/libchromatix_imx091_default_video.so \
     vendor/lge/gee/proprietary/lib/libchromatix_imx091_preview.so:system/lib/libchromatix_imx091_preview.so \
     vendor/lge/gee/proprietary/lib/libchromatix_imx091_video_hd.so:system/lib/libchromatix_imx091_video_hd.so \
@@ -94,9 +99,16 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/lib/libchromatix_imx111_zsl.so:system/lib/libchromatix_imx111_zsl.so \
     vendor/lge/gee/proprietary/lib/libchromatix_imx119_default_video.so:system/lib/libchromatix_imx119_default_video.so \
     vendor/lge/gee/proprietary/lib/libchromatix_imx119_preview.so:system/lib/libchromatix_imx119_preview.so \
+    vendor/lge/gee/proprietary/lib/libchromatix_imx119_vt.so:system/lib/libchromatix_imx119_vt.so \
+    vendor/lge/gee/proprietary/lib/libchromatix_imx132_default_video.so:system/lib/libchromatix_imx132_default_video.so \
+    vendor/lge/gee/proprietary/lib/libchromatix_imx132_preview.so:system/lib/libchromatix_imx132_preview.so \
     vendor/lge/gee/proprietary/lib/libchromatix_mt9e013_default_video.so:system/lib/libchromatix_mt9e013_default_video.so \
     vendor/lge/gee/proprietary/lib/libchromatix_mt9e013_preview.so:system/lib/libchromatix_mt9e013_preview.so \
     vendor/lge/gee/proprietary/lib/libchromatix_mt9e013_video_hfr.so:system/lib/libchromatix_mt9e013_video_hfr.so \
+    vendor/lge/gee/proprietary/lib/libchromatix_ov2720_default_video.so:system/lib/libchromatix_ov2720_default_video.so \
+    vendor/lge/gee/proprietary/lib/libchromatix_ov2720_hfr.so:system/lib/libchromatix_ov2720_hfr.so \
+    vendor/lge/gee/proprietary/lib/libchromatix_ov2720_preview.so:system/lib/libchromatix_ov2720_preview.so \
+    vendor/lge/gee/proprietary/lib/libchromatix_ov2720_zsl.so:system/lib/libchromatix_ov2720_zsl.so \
     vendor/lge/gee/proprietary/lib/libchromatix_ov5647_default_video.so:system/lib/libchromatix_ov5647_default_video.so \
     vendor/lge/gee/proprietary/lib/libchromatix_ov5647_preview.so:system/lib/libchromatix_ov5647_preview.so \
     vendor/lge/gee/proprietary/lib/libchromatix_ov5647_video_hfr.so:system/lib/libchromatix_ov5647_video_hfr.so \
@@ -104,6 +116,13 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/lib/libchromatix_ov8825_preview.so:system/lib/libchromatix_ov8825_preview.so \
     vendor/lge/gee/proprietary/lib/libchromatix_ov9726_default_video.so:system/lib/libchromatix_ov9726_default_video.so \
     vendor/lge/gee/proprietary/lib/libchromatix_ov9726_preview.so:system/lib/libchromatix_ov9726_preview.so \
+    vendor/lge/gee/proprietary/lib/libchromatix_s5k3l1yx_default_video.so:system/lib/libchromatix_s5k3l1yx_default_video.so \
+    vendor/lge/gee/proprietary/lib/libchromatix_s5k3l1yx_hfr_120fps.so:system/lib/libchromatix_s5k3l1yx_hfr_120fps.so \
+    vendor/lge/gee/proprietary/lib/libchromatix_s5k3l1yx_hfr_90fps.so:system/lib/libchromatix_s5k3l1yx_hfr_90fps.so \
+    vendor/lge/gee/proprietary/lib/libchromatix_s5k3l1yx_hfr_60fps.so:system/lib/libchromatix_s5k3l1yx_hfr_60fps.so \
+    vendor/lge/gee/proprietary/lib/libchromatix_s5k3l1yx_preview.so:system/lib/libchromatix_s5k3l1yx_preview.so \
+    vendor/lge/gee/proprietary/lib/libchromatix_s5k3l1yx_video_hd.so:system/lib/libchromatix_s5k3l1yx_video_hd.so \
+    vendor/lge/gee/proprietary/lib/libchromatix_s5k3l1yx_zsl.so:system/lib/libchromatix_s5k3l1yx_zsl.so \
     vendor/lge/gee/proprietary/lib/libchromatix_s5k4e1_default_video.so:system/lib/libchromatix_s5k4e1_default_video.so \
     vendor/lge/gee/proprietary/lib/libchromatix_s5k4e1_preview.so:system/lib/libchromatix_s5k4e1_preview.so \
     vendor/lge/gee/proprietary/lib/libchromatix_vx6953_default_video.so:system/lib/libchromatix_vx6953_default_video.so \
@@ -134,6 +153,14 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/lib/libllvm-arm.so:system/lib/libllvm-arm.so \
     vendor/lge/gee/proprietary/lib/libmercury.so:system/lib/libmercury.so \
     vendor/lge/gee/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
+    vendor/lge/gee/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
+    vendor/lge/gee/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
+    vendor/lge/gee/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
+    vendor/lge/gee/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
+    vendor/lge/gee/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
+    vendor/lge/gee/proprietary/lib/libmmcamera_plugin.so:system/lib/libmmcamera_plugin.so \
+    vendor/lge/gee/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
+    vendor/lge/gee/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/lge/gee/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/lge/gee/proprietary/lib/libmmgestures-linux.so:system/lib/libmmgestures-linux.so \
     vendor/lge/gee/proprietary/lib/libmmgesture_services.so:system/lib/libmmgesture_services.so \
@@ -142,8 +169,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
     vendor/lge/gee/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
     vendor/lge/gee/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
+    vendor/lge/gee/proprietary/lib/libmorpho_movie_stabilization.so:system/lib/libmorpho_movie_stabilization.so \
     vendor/lge/gee/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
     vendor/lge/gee/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
+    vendor/lge/gee/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/lge/gee/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/lge/gee/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
     vendor/lge/gee/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
