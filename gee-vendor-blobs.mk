@@ -27,7 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/bin/ks:system/bin/ks \
     vendor/lge/gee/proprietary/bin/mm-audio-send-cal:system/bin/mm-audio-send-cal \
     vendor/lge/gee/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/lge/gee/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/lge/gee/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/gee/proprietary/bin/nl_listener:system/bin/nl_listener \
     vendor/lge/gee/proprietary/bin/port-bridge:system/bin/port-bridge \
@@ -37,7 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/bin/radish:system/bin/radish \
     vendor/lge/gee/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/gee/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/lge/gee/proprietary/bin/thermald:system/bin/thermald \
     vendor/lge/gee/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/lge/gee/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/lge/gee/proprietary/etc/diag.cfg:system/etc/diag.cfg \
