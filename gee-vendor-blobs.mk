@@ -37,6 +37,13 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/lge/gee/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/lge/gee/proprietary/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg \
+    vendor/lge/gee/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
+    vendor/lge/gee/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
+    vendor/lge/gee/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+    vendor/lge/gee/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+    vendor/lge/gee/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
+    vendor/lge/gee/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+    vendor/lge/gee/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/lge/gee/proprietary/etc/firmware/tzapps.b00:system/etc/firmware/tzapps.b00 \
     vendor/lge/gee/proprietary/etc/firmware/tzapps.b01:system/etc/firmware/tzapps.b01 \
     vendor/lge/gee/proprietary/etc/firmware/tzapps.b02:system/etc/firmware/tzapps.b02 \
@@ -54,10 +61,13 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
     vendor/lge/gee/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
     vendor/lge/gee/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
+    vendor/lge/gee/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
     vendor/lge/gee/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/lge/gee/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/lge/gee/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/lge/gee/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+    vendor/lge/gee/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
+    vendor/lge/gee/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
     vendor/lge/gee/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/lge/gee/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
     vendor/lge/gee/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
@@ -69,7 +79,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/lge/gee/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/lge/gee/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
+    vendor/lge/gee/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/lge/gee/proprietary/lib/libcamera_fast_af.so:system/lib/libcamera_fast_af.so \
+    vendor/lge/gee/proprietary/lib/libCB.so:system/lib/libCB.so \
     vendor/lge/gee/proprietary/lib/libchromatix_imx091_default_video.so:system/lib/libchromatix_imx091_default_video.so \
     vendor/lge/gee/proprietary/lib/libchromatix_imx091_preview.so:system/lib/libchromatix_imx091_preview.so \
     vendor/lge/gee/proprietary/lib/libchromatix_imx091_video_hd.so:system/lib/libchromatix_imx091_video_hd.so \
@@ -101,6 +113,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/lge/gee/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/lge/gee/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
+    vendor/lge/gee/proprietary/lib/libllvm-arm.so:system/lib/libllvm-arm.so \
     vendor/lge/gee/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
     vendor/lge/gee/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lge/gee/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
@@ -124,6 +137,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
     vendor/lge/gee/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/lge/gee/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
+    vendor/lge/gee/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
+    vendor/lge/gee/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/lge/gee/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/lge/gee/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/lge/gee/proprietary/lib/libqdi.so:system/lib/libqdi.so \
@@ -139,6 +154,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/lge/gee/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/lge/gee/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
+    vendor/lge/gee/proprietary/lib/librs_adreno.so:system/lib/librs_adreno.so \
+    vendor/lge/gee/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/lge/gee/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
     vendor/lge/gee/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/lge/gee/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
@@ -148,8 +165,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/lge/gee/proprietary/lib/soundfx/libfmas.so:system/lib/soundfx/libfmas.so \
     vendor/lge/gee/proprietary/lib/lib_dlb_msd.so:system/lib/lib_dlb_msd.so \
-    vendor/lge/gee/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
-    vendor/lge/gee/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
     vendor/lge/gee/proprietary/vendor/firmware/discretix/dxhdcp2.b00:system/vendor/firmware/discretix/dxhdcp2.b00 \
     vendor/lge/gee/proprietary/vendor/firmware/discretix/dxhdcp2.b01:system/vendor/firmware/discretix/dxhdcp2.b01 \
     vendor/lge/gee/proprietary/vendor/firmware/discretix/dxhdcp2.b02:system/vendor/firmware/discretix/dxhdcp2.b02 \
