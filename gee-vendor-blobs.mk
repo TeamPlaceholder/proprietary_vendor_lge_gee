@@ -59,6 +59,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/lge/gee/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/lge/gee/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+    vendor/lge/gee/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     vendor/lge/gee/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
     vendor/lge/gee/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/lge/gee/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
@@ -79,6 +80,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/lib/libchromatix_imx111_zsl.so:system/lib/libchromatix_imx111_zsl.so \
     vendor/lge/gee/proprietary/lib/libchromatix_imx119_default_video.so:system/lib/libchromatix_imx119_default_video.so \
     vendor/lge/gee/proprietary/lib/libchromatix_imx119_preview.so:system/lib/libchromatix_imx119_preview.so \
+    vendor/lge/gee/proprietary/lib/libchromatix_imx119_vt.so:system/lib/libchromatix_imx119_vt.so \
     vendor/lge/gee/proprietary/lib/libCommandSvc.so:system/lib/libCommandSvc.so \
     vendor/lge/gee/proprietary/lib/libconfigdb.so:system/lib/libconfigdb.so \
     vendor/lge/gee/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
@@ -105,11 +107,15 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lge/gee/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/lge/gee/proprietary/lib/libmercury.so:system/lib/libmercury.so \
+    vendor/lge/gee/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
+    vendor/lge/gee/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
     vendor/lge/gee/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/lge/gee/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/lge/gee/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     vendor/lge/gee/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
     vendor/lge/gee/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
+    vendor/lge/gee/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
+    vendor/lge/gee/proprietary/lib/libmmcamera_plugin.so:system/lib/libmmcamera_plugin.so \
     vendor/lge/gee/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/lge/gee/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/lge/gee/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
@@ -118,6 +124,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
     vendor/lge/gee/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
     vendor/lge/gee/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
+    vendor/lge/gee/proprietary/lib/libmorpho_movie_stabilization.so:system/lib/libmorpho_movie_stabilization.so \
     vendor/lge/gee/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
     vendor/lge/gee/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/lge/gee/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
