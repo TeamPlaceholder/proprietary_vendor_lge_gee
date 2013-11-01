@@ -55,20 +55,24 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
     vendor/lge/gee/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
     vendor/lge/gee/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    vendor/lge/gee/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/lge/gee/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/lge/gee/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/lge/gee/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+    vendor/lge/gee/proprietary/lib/egl/libEGL_adreno.so:system/lib/egl/libEGL_adreno.so \
+    vendor/lge/gee/proprietary/lib/egl/libGLESv1_CM_adreno.so:system/lib/egl/libGLESv1_CM_adreno.so \
+    vendor/lge/gee/proprietary/lib/egl/libGLESv2_adreno.so:system/lib/egl/libGLESv2_adreno.so \
+    vendor/lge/gee/proprietary/lib/egl/libplayback_adreno.so:system/lib/egl/libplayback_adreno.so \
+    vendor/lge/gee/proprietary/lib/egl/libq3dtools_adreno.so:system/lib/egl/libq3dtools_adreno.so \
     vendor/lge/gee/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
     vendor/lge/gee/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/lge/gee/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
     vendor/lge/gee/proprietary/lib/libacdbdata.so:system/lib/libacdbdata.so \
     vendor/lge/gee/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
+    vendor/lge/gee/proprietary/lib/libadreno_utils.so:system/lib/libadreno_utils.so \
     vendor/lge/gee/proprietary/lib/libAKM.so:system/lib/libAKM.so \
     vendor/lge/gee/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/lge/gee/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
+    vendor/lge/gee/proprietary/lib/libCB.so:system/lib/libCB.so \
     vendor/lge/gee/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-    vendor/lge/gee/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
+    vendor/lge/gee/proprietary/lib/libc2d30.so:system/lib/libc2d30.so \
+    vendor/lge/gee/proprietary/lib/libc2d30-a3xx.so:system/lib/libc2d30-a3xx.so \
     vendor/lge/gee/proprietary/lib/libcamera_fast_af.so:system/lib/libcamera_fast_af.so \
     vendor/lge/gee/proprietary/lib/libchromatix_imx091_default_video.so:system/lib/libchromatix_imx091_default_video.so \
     vendor/lge/gee/proprietary/lib/libchromatix_imx091_preview.so:system/lib/libchromatix_imx091_preview.so \
@@ -139,6 +143,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/lge/gee/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/lge/gee/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
+    vendor/lge/gee/proprietary/lib/librs_adreno.so:system/lib/librs_adreno.so \
+    vendor/lge/gee/proprietary/lib/librs_adreno_sha1.so:system/lib/librs_adreno_sha1.so \
+    vendor/lge/gee/proprietary/lib/libRSDriver_adreno.so:system/lib/libRSDriver_adreno.so \
     vendor/lge/gee/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
     vendor/lge/gee/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/lge/gee/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
